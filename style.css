@@ -1,0 +1,15 @@
+nav{
+    background-color: rgb(15, 23, 42);
+    color: rgb(148, 168, 184);
+    display:flex;
+    justify-content:end ;
+    align-items: end;
+}
+body{
+    background-color: rgb(15, 23, 42);
+
+}
+.links{
+    color: rgb(148, 168, 184);
+    margin-right: 40px;
+}

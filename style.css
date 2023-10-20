@@ -7,9 +7,35 @@ nav{
 }
 body{
     background-color: rgb(15, 23, 42);
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 .links{
     color: rgb(148, 168, 184);
     margin-right: 40px;
+}
+.flexbox-container{
+    display:flex;
+    height:500px;
+    width: 1000px;
+    margin:20px;
+    justify-content: center;
+    align-items: center;
+}
+.flexbox-item{
+    display: flex;
+    color: rgb(189, 207, 223);
+    flex-direction: column;
+    justify-content: flex-left;
+    height:150px;
+    width: 350px;
+    margin-right: 150px;
+}
+h4, h1, p, h2 {
+     margin: 0px 0;
+}
+h1{
+    font-size: 45px
+}
+p{
+    font-size: 15px
 }
